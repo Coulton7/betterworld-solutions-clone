@@ -1,0 +1,49 @@
+.row {
+  margin: 0 auto;
+}
+
+.fullscreen {
+  padding: 0!important;
+  margin: 0!important;
+}
+
+.row-deep {
+  padding-bottom: 3em;
+  padding-top: 2.5em;
+}
+
+.logo-header {
+  position: absolute;
+  z-index: 3;
+  top: 25%;
+  overflow: hidden;
+}
+
+.video-background {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-padding {
+  padding-top: 3.5em;
+}
+
+@media (max-width: 767px) {
+  .logo-header {
+    top: -3%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo-header {
+    top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-header {
+    top: 0;
+  }
+}
+

@@ -1,0 +1,160 @@
+h2, h3, h4, h5, h6 {
+  margin: 10.5px 0;
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 26px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 27px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.margin-top {
+  margin-top: 1em;
+}
+
+.margin-left {
+  margin-left: 1em;
+}
+
+#downloadPDF, #savePDF {
+  display: none;
+}
+
+#createPDF {
+  display: block;
+}
+
+.global-warming-form {
+  background-color: #60991f;
+  color: #ffffff;
+  background-image: url("../../assets/img/climate-world.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  padding: 1.5em;
+}
+
+a {
+  color: #6fa334;
+  border-bottom: 1px dashed transparent;
+}
+
+a:hover {
+  color: #588229;
+  border-bottom: 1px dashed #588229;
+  text-decoration: none;
+}
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #savePDF {
+    display: none!important;
+  }
+}
+
+#savePDF {
+  display: none!important;
+}
+
+.policy-label {
+  color: #dcefca;
+}
+
+.invalid-feedback {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form-check-label {
+  color: #dcefca;
+}
+
+.form-control {
+  background-color: #dcefca;
+}
+
+.form-control:focus {
+  background-color: #dcefca;
+}
+
+#error {
+  display: none;
+}
+
+#downloadPDF {
+  margin-left: 10em;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 10.5px 0;
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 26px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 27px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.row {
+  margin: 0 auto;
+}
+
