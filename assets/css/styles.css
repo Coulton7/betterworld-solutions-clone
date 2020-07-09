@@ -31,13 +31,6 @@
   height: 100%;
 }
 
-.slide-home {
-  background-image: url("../../assets/img/stock-photo-double-exposure-man-on-factory-graphic-interface-concept-of-modern-industry-technology-1501028282.jpg");
-  background-position: top left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .overlay-content {
   position: relative;
   top: 55%;
@@ -114,13 +107,6 @@
   border-bottom: 1px dashed transparent;
 }
 
-.slide {
-  background-image: url("../../assets/img/real-world-examples-lg-153331094.jpg");
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .white-background {
   background-color: #ffffff;
   color: #535354;
@@ -150,7 +136,7 @@
 }
 
 .green-text {
-  color: #6FA334;
+  color: #4bb485;
 }
 
 .image-highlight {
@@ -185,9 +171,9 @@
 }
 
 .slide-download {
-  background-image: url("../../assets/img/shutterstock_1412954777.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  /*background-image: url("../../assets/img/shutterstock_1412954777.jpg");*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
 }
 
 .well {
@@ -230,9 +216,9 @@
 }
 
 .global-warming-form {
-  background-color: #60991f;
+  background-color: #4bb485;
   color: #ffffff;
-  background-image: url("../../assets/img/climate-world.png");
+  /*background-image: url("../../assets/img/climate-world.png");*/
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
@@ -254,31 +240,27 @@
 }
 
 .btn-primary {
-  background-color: #6fa334;
-  border: 1px solid #6fa334;
+  background-color: #4bb485;
+  border: 1px solid #4bb485;
 }
 
 .btn-primary:hover {
-  background-color: #588229;
-  border: 1px solid #588229;
+  background-color: #4bb485;
+  border: 1px solid #4bb485;
 }
 
-.form-download {
-  background-color: #e2d8bf;
-}
-
-.create-form {
-  background-color: #313437;
+.grey-background {
+  background-color: #f2f2f2;
 }
 
 a {
-  color: #6fa334;
+  color: #4bb485;
   border-bottom: 1px dashed transparent;
 }
 
 a:hover {
-  color: #588229;
-  border-bottom: 1px dashed #588229;
+  color: #4bb485;
+  border-bottom: 1px dashed #4bb485;
   text-decoration: none;
 }
 
@@ -398,7 +380,7 @@ a:hover {
 
 @media (min-width: 992px) {
   .green-text {
-    color: #6FA334;
+    color: #4bb485;
   }
 }
 
@@ -421,25 +403,11 @@ a:hover {
 }
 
 .slide-evidence {
-  background-image: url("../../assets/img/a-summary-of-evidence-lg-25596409.jpg");
-  background-position: top left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.slide-intro {
-  background-image: url("../../assets/img/why-we-are-taking-action-lg-683776144.jpg");
-  filter: brightness(101%);
-  background-position: top left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.slide-statement {
-  background-image: url("../../assets/img/shutterstock_285980522.jpg");
-  background-position: top left;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /*background-image: url("../../assets/img/a-summary-of-evidence-lg-25596409.jpg");*/
+  /*background-position: top left;*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  background-color: #000;
 }
 
 .no-hover:hover {
@@ -455,8 +423,8 @@ a:hover {
 }
 
 .btn-primary:focus {
-  background-color: #588229;
-  border: 1px solid #588229;
+  background-color: #4bb485;
+  border: 1px solid #4bb485;
 }
 
 .btn-primary:focus, .btn-primary:focus:active {
@@ -464,17 +432,17 @@ a:hover {
 }
 
 .modal-activate {
-  color: #6FA334;
+  color: #4bb485;
   cursor: pointer;
 }
 
 .modal-activate:hover {
-  color: #588229;
+  color: #4bb485;
   cursor: pointer;
 }
 
 .grey-background {
-  background-color: #EDEDED;
+  background-color: #f2f2f2;
 }
 
 .mono-filter {
@@ -499,7 +467,7 @@ a.no-dash:hover {
 }
 
 .green-background {
-  background-color: #6FA334;
+  background-color: #4bb485;
   color: #ffffff;
   padding: 50px 0;
 }
@@ -627,7 +595,7 @@ a.no-dash:hover {
 }
 
 .form-control, .hs-form .hs-input {
-  background-color: #dcefca;
+  background-color: #f2f2f2;
   border: 1px solid #ced4da;
   border-radius: .25rem;
 }
@@ -669,7 +637,7 @@ a.no-dash:hover {
 
 #calcapendix {
   margin-top: 2em;
-  background-color: #6FA334;
+  background-color: #000;
   padding: 50px 25px;
   color: #f0f9ff;
   margin-bottom: 2em;

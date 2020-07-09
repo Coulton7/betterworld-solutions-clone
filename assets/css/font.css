@@ -2,8 +2,7 @@ body {
   font-size: 14px;
   line-height: 1.618rem;
   color: #565756;
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
-  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 /* sets the text color and base height and size */
@@ -40,7 +39,7 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   margin: 10.5px 0;
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
+  font-family: "HelveticaNeue", serif;
   font-weight: 500;
 }
 

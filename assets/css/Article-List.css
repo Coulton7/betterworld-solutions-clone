@@ -1,11 +1,9 @@
 .article-list {
   color: #535354;
-  background-image: url(../../assets/img/sustainability-footer.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  background-color: #EDEDED;
+  background-color: #ffffff;
   margin-bottom: -1px;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .article-list p {
@@ -69,7 +67,7 @@
 }
 
 .black-background {
-  background-color: #313437;
+  background-color: #000;
   color: #ffffff;
 }
 
