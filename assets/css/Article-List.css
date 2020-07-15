@@ -3,7 +3,7 @@
   background-color: #ffffff;
   margin-bottom: -1px;
   padding-top: 2em;
-  padding-bottom: 2em;
+  /*padding-bottom: 2em;*/
 }
 
 .article-list p {
@@ -77,5 +77,16 @@
 
 .backgroundVideo {
   object-fit: cover;
+}
+
+.img-40 {
+  max-width: 40%;
+}
+
+.text-green {
+  color: #4cb460;
+}
+
+#panellinks {
 }
 
