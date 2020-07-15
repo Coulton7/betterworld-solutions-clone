@@ -8,12 +8,12 @@
             x.style.height = "0%";
             $('.main').removeClass('active');
             $("body").removeClass('noscroll');
-            $(y).addClass('fixed-top');
+            $(y).addClass('sticky-top');
         } else {
             x.style.height = "100%";
             $('.main').addClass('active');
             $("body").addClass('noscroll');
-            $(y).removeClass('fixed-top');
+            $(y).removeClass('sticky-top');
         }
     });
     $("#mobile-overlay").click(
@@ -25,12 +25,12 @@
             x.style.height ="0%";
             $('.main').removeClass('active');
             $("body").removeClass('noscroll');
-            $(y).addClass('fixed-top');
+            $(y).addClass('sticky-top');
         } else {
             x.style.height = "100%";
             $('.main').addClass('active');
             $("body").addClass('noscroll');
-            $(y).removeClass('fixed-top');
+            $(y).removeClass('sticky-top');
         }
     });
 })(jQuery);
