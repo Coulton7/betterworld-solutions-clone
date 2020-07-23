@@ -245,8 +245,8 @@
 }
 
 .btn-primary:hover {
-  background-color: #4bb485;
-  border: 1px solid #4bb485;
+  background-color: #2f6f52;
+  border: 1px solid #2f6f52;
 }
 
 .grey-background {
@@ -737,5 +737,15 @@ ul.no-list.hs-error-msgs.inputs-list {
 
 #assumptions {
   border-bottom: 20px solid #f2f2f2;
+}
+
+.col {
+}
+
+#featuredcasestudy {
+  height: 100%;
+  background: url(../../assets/img/featured.png) top right no-repeat;
+  background-color: #000000;
+  color: rgb(255,255,255);
 }
 
