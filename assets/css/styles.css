@@ -245,8 +245,8 @@
 }
 
 .btn-primary:hover {
-  background-color: #2f6f52;
-  border: 1px solid #2f6f52;
+  background-color: #419c73;
+  border: 1px solid #419c73;
 }
 
 .grey-background {
@@ -747,5 +747,9 @@ ul.no-list.hs-error-msgs.inputs-list {
   background: url(../../assets/img/featured.png) top right no-repeat;
   background-color: #000000;
   color: rgb(255,255,255);
+}
+
+darkgrey-background {
+  background-color: #e6e6e5;
 }
 
