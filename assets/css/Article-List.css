@@ -100,3 +100,22 @@
   color: white;
 }
 
+.text-shadow {
+  text-shadow: 2px 1px 2px #010101;
+  font-weight: 600;
+}
+
+#referencelinks {
+  background-image: url(../../assets/img/lightgreen-parking.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: .15s ease-in-out;
+  -moz-transition: .15s ease-in-out;
+  -o-transition: .15s ease-in-out;
+  -webkit-transition-property: background-position;
+  -moz-transition-property: background-position;
+  -o-transition-property: background-position;
+}
+

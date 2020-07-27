@@ -441,17 +441,16 @@ a:hover {
   cursor: pointer;
 }
 
-.grey-background {
-  background-color: #f2f2f2;
-}
-
 .mono-filter {
   transition: 0.8s;
-  filter: grayscale(1);
+  filter: grayscale(0.2);
+  /*opacity: 85%;*/
 }
 
 .mono-filter:hover {
   filter: grayscale(0);
+  /*opacity: 100%;*/
+  background-color: white;
 }
 
 .light-green-background {
@@ -578,11 +577,11 @@ a.no-dash:hover {
 }
 
 .form-control::placeholder {
-  color: #619931;
+  color: #4cb511;
 }
 
 #formio .form-check-label, .hbspt-form fieldset label {
-  color: #6FA334;
+  color: #4cb486;
 }
 
 .form-check-label {
@@ -594,9 +593,9 @@ a.no-dash:hover {
   font-weight: bold;
 }
 
-.form-control, .hs-form .hs-input {
-  background-color: #f2f2f2;
-  border: 1px solid #ced4da;
+.hs-form .hs-input {
+  background-color: #bfc1b8;
+  border: 1px solid #a0a299;
   border-radius: .25rem;
 }
 
@@ -687,8 +686,8 @@ fieldset.form-columns-2 {
 }
 
 .hs-button {
-  background-color: #6fa334;
-  border: 1px solid #6fa334;
+  background-color: #4bb485;
+  border: 1px solid #4bb472;
   padding: .375rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -699,8 +698,8 @@ fieldset.form-columns-2 {
 }
 
 .hs-button:hover {
-  background-color: #588229;
-  border: 1px solid #588229;
+  background-color: #419c73;
+  border: 1px solid #419c73;
   color: #e5e5e7;
 }
 
@@ -751,5 +750,11 @@ ul.no-list.hs-error-msgs.inputs-list {
 
 darkgrey-background {
   background-color: #e6e6e5;
+}
+
+.document-shade {
+  background-color: #010101;
+  border-bottom: 5px;
+  border-color: white;
 }
 
