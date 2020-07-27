@@ -822,8 +822,8 @@ darkgrey-background {
 @media screen and (min-width: 768px) {
   .header-title-bottom {
     position: absolute;
-    bottom: -3em;
-    height: 100%;
+    bottom: 0;
+    height: 50%;
     width: 100%;
     background-color: #2a3032;
     left: 0;
