@@ -331,7 +331,3 @@ a.white-text {
   font-weight: bold;
 }
 
-li:not(:last-child) {
-  margin-bottom: 1em;
-}
-
