@@ -3,7 +3,8 @@
 
     $('.flexslider').flexslider({
       controlNav: false,
-      directionNav: false
+      directionNav: false,
+      useCSS: false
 
     });
 
@@ -40,4 +41,5 @@
     });
 
   });
+    
 })(jQuery)
