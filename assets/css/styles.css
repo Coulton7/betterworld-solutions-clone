@@ -789,7 +789,7 @@ darkgrey-background {
   border-color: white;
 }
 
-.quotebox, .quotebox-1q-line, .quotebox-3q-line {
+.quotebox, .quotebox-1q-line, .quotebox-3q-line, .quotebox-h2-line {
   width: 100%;
   background: #e6e6e5;
   padding: 2em 1em;
@@ -817,6 +817,16 @@ darkgrey-background {
 
 .position-rel {
   position: relative;
+}
+
+.header-title-bottom-2-line {
+  position: absolute;
+  bottom: 0;
+  height: 75%;
+  width: 100%;
+  background-color: #2a3032;
+  left: 0;
+  background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
 }
 
 @media screen and (min-width: 768px) {
@@ -903,6 +913,12 @@ darkgrey-background {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .quotebox-h2-line {
+    bottom: -6em;
+  }
+}
+
 @media screen and (min-width: 800px) {
   .header-title-bottom-1q-line {
     position: absolute;
@@ -912,6 +928,12 @@ darkgrey-background {
     background-color: #2a3032;
     left: 0;
     background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .quotebox-h2-line {
+    bottom: -4em;
   }
 }
 
@@ -942,6 +964,12 @@ darkgrey-background {
 @media screen and (min-width: 992px) {
   .quotebox-1q-line {
     bottom: -2em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .quotebox-h2-line {
+    bottom: 0em;
   }
 }
 
@@ -984,6 +1012,12 @@ darkgrey-background {
     background-color: #2a3032;
     left: 0;
     background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .quotebox-h2-line {
+    bottom: -2.5em;
   }
 }
 
@@ -1036,6 +1070,12 @@ darkgrey-background {
 }
 
 @media screen and (min-width: 1200px) {
+  .quotebox-h2-line {
+    bottom: -2.5em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .quotebox-1q-line {
     bottom: -4em;
   }
@@ -1056,6 +1096,12 @@ darkgrey-background {
     background-color: #2a3032;
     left: 0;
     background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .quotebox-h2-line {
+    bottom: -2.5em;
   }
 }
 
@@ -1083,15 +1129,51 @@ darkgrey-background {
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .header-title-bottom-2-line {
+    bottom: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header-title-bottom-2-line {
     position: absolute;
-    bottom: 0;
+    bottom: -3.25em;
     height: 75%;
     width: 100%;
     background-color: #2a3032;
     left: 0;
     background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header-title-bottom-2-line {
+    bottom: -1.6em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-title-bottom-2-line {
+    bottom: 1.45em;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .header-title-bottom-2-line {
+    bottom: -1.7em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-title-bottom-2-line {
+    bottom: -1.7em;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .header-title-bottom-2-line {
+    bottom: 0;
   }
 }
 
