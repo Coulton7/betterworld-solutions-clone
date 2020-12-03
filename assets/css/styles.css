@@ -1480,3 +1480,11 @@ darkgrey-background {
   }
 }
 
+a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
+  transform: rotate(-180deg);
+}
+
+.card-body {
+  background-color: #e6e6e5;
+}
+
