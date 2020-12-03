@@ -5,6 +5,8 @@ $(document).ready(function() {
     var orgEmail = document.getElementById('orgEmail');
     var orgWorkers = document.getElementById('orgWorkers');
     var roi = document.getElementById('roi');
+    var jobRole = document.getElementById('jobRole');
+    var name = document.getElementById('name');
     var orgType = document.getElementById('orgType');
     var type1 = document.getElementById('type1');
     var type2 = document.getElementById('type2');
@@ -45,9 +47,23 @@ $(document).ready(function() {
       return false;
     }
 
+    if (jobRole.value == "") {
+      $(roi).removeClass("is-invalid");
+      $(jobRole).addClass("is-invalid");
+      $(error).show(); 
+      return false;
+    }
+
+    if (name.value == "") {
+      $(jobRole).removeClass("is-invalid");
+      $(name).addClass("is-invalid");
+      $(error).show(); 
+      return false;
+    }
+
     if ($('input[name=orgType]:checked').length == 0) {
       window.alert("Please select a business type");
-      $(roi).removeClass("is-invalid");
+      $(name).removeClass("is-invalid");
       $(type1).addClass("is-invalid");
       $(type2).addClass("is-invalid");
       $(type3).addClass("is-invalid");
@@ -56,7 +72,6 @@ $(document).ready(function() {
     } else {
       $('#createPDF').hide();
       $('#downloadPDF').show();
-      /*$('#savePDF').show();*/
     }
   })
 });

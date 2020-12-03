@@ -359,12 +359,6 @@ a:hover {
 }
 
 @media (min-width: 300px) {
-  .green-text {
-    color: #ffffff;
-  }
-}
-
-@media (min-width: 300px) {
   .green-logo {
     display: none;
   }
@@ -415,12 +409,6 @@ a:hover {
 @media (min-width: 992px) {
   .slide-caption {
     margin-top: 10%;
-  }
-}
-
-@media (min-width: 992px) {
-  .green-text {
-    color: #4bb485;
   }
 }
 
@@ -855,9 +843,9 @@ darkgrey-background {
 
 @media screen and (max-width: 767px) {
   .header-title-bottom-3q-line {
-    position: absolute;
-    bottom: -5.1em;
-    height: auto;
+    position: relative;
+    bottom: -3.1em;
+    height: 62%;
     width: 100%;
     background-color: #2a3032;
     left: 0;
@@ -873,7 +861,7 @@ darkgrey-background {
 
 @media screen and (max-width: 767px) {
   .quotebox-3q-line {
-    bottom: -6em;
+    bottom: -3em;
   }
 }
 
@@ -1193,7 +1181,7 @@ darkgrey-background {
 
 @media screen and (max-width: 767px) {
   .header-title-bottom {
-    bottom: 0;
+    bottom: -2em;
     background-color: #2a3032;
     position: relative;
     background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
@@ -1202,16 +1190,17 @@ darkgrey-background {
 
 @media screen and (max-width: 767px) {
   .header-title-bottom-1q-line {
-    bottom: 0;
+    bottom: -2.3em;
     background-color: #2a3032;
     position: relative;
     background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
+    height: 62%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header-title-bottom-2-line {
-    bottom: 0;
+    bottom: -2em;
     background-color: #2a3032;
     position: relative;
     background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
@@ -1483,5 +1472,11 @@ darkgrey-background {
 
 .slides li {
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-panel-margin {
+    margin-bottom: 1em;
+  }
 }
 
