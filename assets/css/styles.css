@@ -1488,3 +1488,10 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   background-color: #e6e6e5;
 }
 
+.back-case-studies {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 1032;
+}
+
