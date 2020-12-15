@@ -27,7 +27,7 @@ p a[target="_blank"]:after {
   font-weight: 300;
 }
 
-h1 {
+h1, .h1 {
   text-align: center;
   font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
   font-weight: 300;
