@@ -72,6 +72,7 @@ $(document).ready(function() {
     } else {
       $('#createPDF').hide();
       $('#downloadPDF').show();
+      $('#savePDF').show();
     }
   })
 });

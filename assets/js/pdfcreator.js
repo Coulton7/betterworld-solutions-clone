@@ -15,13 +15,20 @@ function pdfCreator() {
   } else if (document.getElementById('type3').checked) {
     orgTypeValue = document.getElementById('type3').value;
   };
+  var date = document.getElementById('date');
+  var startDate;
+  if(date.value ===""){
+    startDate = new Intl.DateTimeFormat('en-GB').format()
+  } else{
+    startDate = date.value;
+  };
 
 
   var docDefinition = {
 
     info: {
-      title: 'POLICY TO PREVENT GLOBAL WARMING',
-      subject: 'POLICY TO PREVENT GLOBAL WARMING'
+      title: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING',
+      subject: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING'
     },
 
     pageMargins: [45, 105, 45, 60],
@@ -35,7 +42,7 @@ function pdfCreator() {
     },
 
     content: [{
-        text: 'POLICY TO PREVENT GLOBAL WARMING\n\n',
+        text: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING\n\n',
         style: 'header'
       },
       {
@@ -82,7 +89,10 @@ function pdfCreator() {
       },
       {
         text:['',jobRole.value,'']
-      },
+            },
+      {
+        text:['', startDate], style:['date']
+      }
     ],
 
     styles: {
@@ -106,13 +116,16 @@ function pdfCreator() {
       },
       subsmall: {
         fontSize: 8
+      },
+      date:{
+        alignment:'right'
       }
     }
   };
   var pdf = pdfMake.createPdf(docDefinition).download('Policy-to-prevent-Global-Warming.pdf');
 }
 
-function pdfCreator() {
+function pdfOpen() {
   var orgName = document.getElementById('orgName');
   var orgPhone = document.getElementById('orgPhone');
   var orgEmail = document.getElementById('orgEmail');
@@ -141,14 +154,14 @@ if(date.value ===""){
   var docDefinition = {
 
     info: {
-      title: 'POLICY TO PREVENT GLOBAL WARMING',
-      subject: 'POLICY TO PREVENT GLOBAL WARMING'
+      title: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING',
+      subject: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING'
     },
 
     pageMargins: [45, 105, 45, 60],
 
     footer: {
-      margin: [45, 0, 45, 0],
+      margin: [35, 0, 45, 0],
       text: [
         'This policy is copyright free and any, or all of it can be adopted at will by any organisation. Create your own by visiting, https://www.aesseal.com/en/resources/industry-guides/policy-prevent-global-warming'
       ],
@@ -156,7 +169,7 @@ if(date.value ===""){
     },
 
     content: [{
-        text: 'POLICY TO PREVENT GLOBAL WARMING\n\n',
+        text: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING\n\n',
         style: 'header'
       },
       {
@@ -191,9 +204,6 @@ if(date.value ===""){
       },
       {
         text: ['The Board of ', orgName.value, ' encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.\n\n']
-      },
-      {
-        text:['\n\n']
       },
       {
         text:['\n\n']
