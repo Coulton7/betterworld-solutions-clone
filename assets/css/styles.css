@@ -586,7 +586,7 @@ a.no-dash:hover {
 }
 
 #savePDF {
-  display: none!important;
+  /*display: none!important;*/
 }
 
 .policy-label {
@@ -811,6 +811,34 @@ darkgrey-background {
   position: absolute;
   bottom: 0;
   height: 75%;
+  width: 100%;
+  background-color: #2a3032;
+  left: 0;
+  background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
+}
+
+.header-title-bottom-3-line:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 0.5em 0.5em 0;
+  border-style: solid;
+  border-color: transparent transparent #4f5656 #4f5656;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  width: 0;
+  border-left: 0px solid transparent;
+  border-right: 2em solid transparent;
+  border-bottom: 2em solid #4f5656;
+  background: transparent;
+}
+
+.header-title-bottom-3-line {
+  position: absolute;
+  bottom: 0;
+  height: 85%;
   width: 100%;
   background-color: #2a3032;
   left: 0;
@@ -1135,6 +1163,18 @@ darkgrey-background {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .header-title-bottom-3-line {
+    position: absolute;
+    bottom: -4.3em;
+    height: 95%;
+    width: 100%;
+    background-color: #2a3032;
+    left: 0;
+    background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
+  }
+}
+
 @media screen and (min-width: 800px) {
   .header-title-bottom-2-line {
     bottom: -1.6em;
@@ -1161,6 +1201,38 @@ darkgrey-background {
 
 @media screen and (min-width: 1500px) {
   .header-title-bottom-2-line {
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header-title-bottom-3-line {
+    bottom: -1.6em;
+    height: 95%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-title-bottom-3-line {
+    bottom: 1.5em;
+    height: 85%;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .header-title-bottom-3-line {
+    bottom: -1.7em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-title-bottom-3-line {
+    bottom: -1.7em;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .header-title-bottom-3-line {
     bottom: 0;
   }
 }
@@ -1200,6 +1272,15 @@ darkgrey-background {
 
 @media screen and (max-width: 767px) {
   .header-title-bottom-2-line {
+    bottom: -2em;
+    background-color: #2a3032;
+    position: relative;
+    background: linear-gradient(-135deg, transparent 1.45em, #2a3032 1.45em);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-title-bottom-3-line {
     bottom: -2em;
     background-color: #2a3032;
     position: relative;
@@ -1501,5 +1582,68 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   align-items: center;
   justify-content: center;
   box-shadow: rgba(0,0,0,0.1) 0px 1px 6px, rgba(0,0,0,0.2) 0px 2px 24px;
+}
+
+@media (min-width: 768px) {
+  .overlay-btn {
+    position: relative;
+    top: 2em;
+  }
+}
+
+@media (max-width: 767px) {
+  .overlay-btn {
+    position: relative;
+    top: 0;
+  }
+}
+
+.overlay-menu-btn {
+  float: right;
+  top: 2em;
+  position: relative;
+}
+
+.carousel-slider .flex-direction-nav a, .directionNav .flex-direction-nav a {
+  top: 35%;
+  opacity: 0.7;
+  display: block;
+  border: 1px solid #e5e5e7;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.carousel-slider .flex-direction-nav a:before, .directionNav .flex-direction-nav a:before {
+  font-size: 30px;
+}
+
+.carousel-slider .flex-direction-nav a.flex-prev, .directionNav .flex-direction-nav a:before {
+  left: 0;
+  opacity: 0.7;
+}
+
+.carousel-slider .flex-direction-nav a.flex-next, .directionNav .flex-direction-nav a:before {
+  right: -15px;
+  opacity: 0.7px;
+}
+
+.flex-direction-nav a.flex-next:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f054";
+  font-weight: 700;
+  margin-top: 0.15em;
+}
+
+.flex-direction-nav a.flex-prev:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f053";
+  font-weight: 700;
+  margin-top: 0.15em;
+}
+
+.positon-relative {
+  position: relative;
 }
 
