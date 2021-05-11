@@ -586,7 +586,6 @@ a.no-dash:hover {
 }
 
 #savePDF {
-  /*display: none!important;*/
 }
 
 .policy-label {
@@ -665,8 +664,8 @@ a.no-dash:hover {
 }
 
 a.white-text:hover {
-  color: #e5e5e7;
-  border-bottom: 1px dashed #e5e5e7;
+  color: #ffffff;
+  border-bottom: 1px dashed #ffffff;
   text-decoration: none;
 }
 
@@ -777,6 +776,17 @@ darkgrey-background {
   border-color: white;
 }
 
+.green-quotebox {
+  width: 100%;
+  background: #4bb485;
+  padding: 1em 1em;
+  text-align: center;
+  color: #4a5656;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  position: relative;
+  margin: 0 auto;
+}
+
 .quotebox, .quotebox-1q-line, .quotebox-3q-line, .quotebox-h2-line {
   width: 100%;
   background: #e6e6e5;
@@ -788,6 +798,19 @@ darkgrey-background {
   bottom: -2em;
   margin: 0 auto;
   height: 100%;
+}
+
+.green-quotebox:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 1em solid transparent;
+  border-right: 1em solid #4bb485;
+  border-top: 1em solid #4bb485;
+  border-bottom: 1em solid transparent;
+  right: 1em;
+  bottom: -1em;
 }
 
 .quotemark:before {
@@ -1368,12 +1391,20 @@ darkgrey-background {
   margin: 0;
 }
 
-.flexslider .slides > li:first-child {
+.flexslider .slides > li:first-child, .newsslider .slides > li:first-child {
   display: block;
   -webkit-backface-visibility: visible;
 }
 
 @media screen and (max-width: 370px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 8.15em;
+  }
+}
+
+@media screen and (max-width: 370px) {
   .caption-container {
     width: 100%;
     position: relative;
@@ -1390,6 +1421,14 @@ darkgrey-background {
 }
 
 @media screen and (max-width: 501px) and (min-width:371px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 9.15em;
+  }
+}
+
+@media screen and (max-width: 501px) and (min-width:371px) {
   .caption-container {
     width: 100%;
     position: relative;
@@ -1414,10 +1453,27 @@ darkgrey-background {
 }
 
 @media screen and (max-width: 767px) and (min-width: 501px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 10.15em;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 501px) {
   .caption-container-3q-line {
     width: 100%;
     position: relative;
     bottom: 10.15em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 9.15em;
+    margin-bottom: -11em;
   }
 }
 
@@ -1449,6 +1505,15 @@ darkgrey-background {
 }
 
 @media screen and (min-width: 768px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 9.2em;
+    margin-bottom: -9.5em;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .caption-container-3q-line {
     width: 100%;
     position: relative;
@@ -1463,6 +1528,15 @@ darkgrey-background {
     position: relative;
     bottom: 13.5em;
     margin-bottom: -14em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 9.5em;
+    margin-bottom: -11em;
   }
 }
 
@@ -1485,6 +1559,15 @@ darkgrey-background {
 }
 
 @media screen and (min-width: 992px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 9.4em;
+    margin-bottom: -9em;
+  }
+}
+
+@media screen and (min-width: 992px) {
   .caption-container-3q-line {
     width: 100%;
     position: relative;
@@ -1503,11 +1586,29 @@ darkgrey-background {
 }
 
 @media screen and (min-width: 1050px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 9.9em;
+    margin-bottom: -9em;
+  }
+}
+
+@media screen and (min-width: 1050px) {
   .caption-container-3q-line {
     width: 100%;
     position: relative;
     bottom: 10.15em;
     margin-bottom: -15.2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 9.8em;
+    margin-bottom: -9.1em;
   }
 }
 
@@ -1526,6 +1627,24 @@ darkgrey-background {
     position: relative;
     bottom: 10.15em;
     margin-bottom: -15em;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 11.2em;
+    margin-bottom: -8.1em;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .front.caption-container {
+    width: 100%;
+    position: relative;
+    bottom: 11.2em;
+    margin-bottom: -6.1em;
   }
 }
 
@@ -1645,5 +1764,29 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
 
 .positon-relative {
   position: relative;
+}
+
+.padding-05em {
+  padding: 0.5em;
+}
+
+.flex-header {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+}
+
+.white-border {
+  outline: 2px solid #ffffff;
+}
+
+.white-line {
+  border-top: 1px solid #ffffff;
+}
+
+.newsslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
 }
 

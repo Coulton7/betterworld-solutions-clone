@@ -29,8 +29,8 @@ p a[target="_blank"]:after {
 
 h1, .h1 {
   text-align: center;
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
-  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
 }
 
 .h1-blue {
@@ -62,7 +62,7 @@ a.no-dash:hover {
 }
 
 a.white-text {
-  color: #ffffff;
+  color: #e5e5e7;
 }
 
 /* link text decoration and effects when clicked on or hover overed */
