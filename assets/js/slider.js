@@ -83,7 +83,7 @@
       controlNav: false,
       directionNav: false,
       start: function(slider){
-        var elements = document.getElementsByClassName('typewrite');
+        var elements = document.querySelectorAll('.flex-active-slide .typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
             var period = elements[i].getAttribute('data-period');
@@ -93,7 +93,7 @@
         }
       },
       after: function(slider){
-        var elements = document.getElementsByClassName('typewrite');
+        var elements = document.querySelectorAll('.flex-active-slide .typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
             var period = elements[i].getAttribute('data-period');
@@ -103,7 +103,7 @@
         }
       },
       animation: "fade",
-      slideshowSpeed: 12000,
+      slideshowSpeed: 10000,
       easing: "swing",
       animationLoop: true,
 
