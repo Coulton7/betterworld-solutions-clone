@@ -44,6 +44,7 @@
       directionNav: false,
       start: function(slider){
         var curSlide = slider.find("li.flex-active-slide");
+        var id = ($(curSlide).attr("id"));
         var content = ($(curSlide, id).attr("data-type"));
         var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
 
@@ -58,6 +59,7 @@
       },
       after: function(slider){
         var curSlide = slider.find("li.flex-active-slide");
+        var id = ($(curSlide).attr("id"));
         var content = ($(curSlide, id).attr("data-type"));
 
         console.log(content);
