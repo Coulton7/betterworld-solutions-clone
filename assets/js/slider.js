@@ -46,7 +46,7 @@
         var curSlide = slider.find("li.flex-active-slide");
         var id = ($(curSlide).attr("id"));
         var content = ($(curSlide, id).attr("data-type"));
-        var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
+        var ele = '<span class="headline">' + content.split('').join('</span><span class="headline">') + '</span>';
 
         $(ele).hide().appendTo($('.flex-active-slide p.typewrite')).each(function (i) {
             $(this).delay(50 * i).css({
@@ -57,26 +57,26 @@
             }, 50);
         });
       },
+      before: function(slider){ $("span.headline").remove(); },
       after: function(slider){
-        var curSlide = slider.find("li.flex-active-slide");
-        var id = ($(curSlide).attr("id"));
-        var content = ($(curSlide, id).attr("data-type"));
 
-        console.log(content);
+          var curSlide = slider.find("li.flex-active-slide");
+          var id = ($(curSlide).attr("id"));
+          var content = ($(curSlide, id).attr("data-type"));
 
-        var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
+          var ele = '<span class="headline">' + content.split('').join('</span><span class="headline">') + '</span>';
 
-        $(ele).hide().appendTo($('.flex-active-slide p.typewrite')).each(function (i) {
-            $(this).delay(50 * i).css({
-                display: 'inline',
-                opacity: 0
-            }).animate({
-                opacity: 1
-            }, 50);
-        });
+          $(ele).hide().appendTo($('.flex-active-slide p.typewrite')).each(function (i) {
+              $(this).delay(50 * i).css({
+                  display: 'inline',
+                  opacity: 0
+              }).animate({
+                  opacity: 1
+              }, 50);
+              });
       },
       animation: "fade",
-      slideshowSpeed: 12000,
+      slideshowSpeed: 10000,
       easing: "swing",
       animationLoop: true,
 
