@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/breaking-news.css">
     <link rel="stylesheet" href="assets/css/flexslider.css">
     <link rel="stylesheet" href="assets/css/font.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
@@ -54,7 +55,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row margin-top">
                 <div class="col-md-4 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column-reverse"><a class="no-dash" href="../index.html"><img class="img-fluid padding-bottom" src="assets/img/logo-600-f2.png"></a></div>
                 <div class="col">
-                    <div><a class="d-sm-none d-md-block ml-auto overlay-menu-btn no-dash" id="overlay-btn" href="#"><i class="fas fa-bars"></i>&nbsp; Menu</a></div><img class="img-fluid" src="assets/img/top-globe.png">
+                    <div><a class="d-md-block ml-auto overlay-menu-btn no-dash" id="overlay-btn" href="#"><i class="fas fa-bars"></i>&nbsp; Menu</a></div>
                 </div>
             </div>
         </div>
@@ -63,7 +64,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container-fluid fullscreen">
             <div class="row fullscreen">
                 <div class="col-12 no-padding fullscreen">
-                    <div class="flexslider">
+                    <div class="green-overlay"></div>
+                    <div class="flexslider homeslider">
                         <ul class="slides">
                             <li><img class="img-fluid" src="assets/img/sandy-back1.jpg"></li>
                             <li><img class="img-fluid" src="assets/img/sandy-back2.jpg"></li>
@@ -80,7 +82,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="front caption-container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 offset-lg-1 offset-xl-1 position-rel">
-                <h1 class="text-left flex-header">Did you know that you could see a return on investment whilst helping to save the environment?<br></h1>
+                <h1 class="text-left h3 flex-header">Did you know that you could see a return on investment whilst helping to save the environment?<br></h1>
             </div>
         </div>
     </div>
@@ -97,24 +99,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </ul>
         </div>
     </div>
-    <div class="padding-top-2em padding-bottom-2em grey-background">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 align-self-center">
-                    <p class="margin-top padding-bottom">Together as business leaders, we can make a difference.<br><strong>Adopt an Investment Policy to Prevent Global Warming.</strong><br></p>
+    <div class="padding-top-2em grey-background">
+        <div class="container-fluid">
+            <div class="row d-flex">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-5 col-xl-5 offset-md-2 offset-lg-1 offset-xl-1">
+                    <div class="d-xl-flex align-items-xl-start">
+                        <p class="lead margin-top margin-bottom">Together as business leaders, we can make a difference.<br><a href="form.html"><strong>Adopt an Investment Policy to Prevent Global Warming.</strong></a><br></p>
+                    </div>
+                    <div class="d-xl-flex flex-column justify-content-xl-end align-items-xl-start">
+                        <h3 class="d-none d-print-block d-sm-none d-md-none d-lg-block d-xl-flex align-items-xl-end margin-top">Dear Business Leader,</h3>
+                        <p class="d-flex d-print-block d-sm-none d-md-none d-lg-block d-xl-flex justify-content-end align-content-end align-self-end align-items-xl-end">The purpose of this communication is to encourage the Boards of companies worldwide to create a simple to understand policy to encourage sustainability projects to be brought to their attention.</p>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 align-self-center"><a class="btn btn-dark text-nowrap margin-top margin-right" role="button" href="form.html">Create Your Policy</a><a class="btn btn-primary margin-top" role="button" id="download-statement" href="https://www.aesseal.com/sites/aesseal.com/files/industryguide/Adopt-a-Policy-RR-Final-issue-6.pdf">Download the Statement</a></div>
+                <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-5 offset-sm-1 offset-md-2 offset-lg-0 offset-xl-0 padding-top-2em padding-bottom-2em">
+                    <div class="row">
+                        <div class="col-sm-6 text-center"><a class="btn btn-primary margin-bottom" role="button" id="download-statement" href="https://www.aesseal.com/sites/aesseal.com/files/industryguide/Adopt_a_Policy_RR_Final_issue_7.pdf">Download the Statement</a><img class="img-fluid img-50" src="assets/img/Investment_Policy_to_Prevent_Global_Warming_AES_Engineering_CJRs.jpg"></div>
+                        <div class="col-sm-6 text-center"><a class="btn btn-dark text-nowrap margin-bottom" role="button" href="form.html">Create Your Own Policy</a><img class="img-fluid img-50" src="assets/img/Policy-to-prevent-Global-Warming.jpg"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div id="Chris-Statement" class="grey-background padding-bottom-2em">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                    <h3>Dear Business Leader,</h3>
-                    <p>The purpose of this communication is to encourage the Boards of companies worldwide to create a simple to understand policy to encourage sustainability projects to be brought to their attention.&nbsp;Our Group of Companies (AES) has made environmental projects a priority for many years, but recent events have convinced us that we need a direct conduit from our own operators and suppliers.&nbsp;</p>
+                <div class="col-12 col-sm-7 col-md-6 col-lg-3 col-xl-3 offset-lg-1 offset-xl-1">
+                    <p></p>
+                    <h3 class="d-block d-print-none d-sm-block d-md-block d-lg-none d-xl-none margin-top">Dear Business Leader,</h3>
+                    <p class="d-print-none d-lg-none d-xl-none">The purpose of this communication is to encourage the Boards of companies worldwide to create a simple to understand policy to encourage sustainability projects to be brought to their attention.</p>
+                    <p>Our Group of Companies (AES) has made environmental projects a priority for many years, but recent events have convinced us that we need a direct conduit from our own operators and suppliers.&nbsp;</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-xl-2">
                     <div class="row">
                         <div class="col"><img class="img-fluid" src="assets/img/chris.jpg" style="padding: 1em;"></div>
                     </div>
@@ -124,36 +139,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-8 col-md-8 col-lg-5 col-xl-5 offset-0 offset-sm-3 offset-md-3 offset-lg-0 offset-xl-0">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-4 col-xl-5 offset-0 offset-sm-0 offset-md-2 offset-lg-0 offset-xl-0">
                     <div class="green-quotebox">
                         <h2 class="padding-05em white-text"><i class="fa fa-newspaper-o"></i>&nbsp; Breaking News</h2>
                         <div class="row text-left">
                             <div class="col">
                                 <div class="newsslider">
                                     <ul class="slides">
-                                        <li data-type="The Planet is burning… There is a long-term illness, affecting the entire planet, that must be tackled urgently.">
+                                        <li id="headline-1" data-type="The Planet is burning… There is a long-term illness, affecting the entire planet, that must be tackled urgently."><a data-toggle="tooltip" data-bss-tooltip="" class="slider-link" href="https://www.linkedin.com/posts/chris-rea-8961b617_climatechange-sustainability-climatecrisis-activity-6795677221173424128-Y2JK/" title="Click here to read article on Linkedin"></a>
                                             <div class="row">
                                                 <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7">
-                                                    <p class="text-left white-text typewrite" data-period="7000"></p>
-                                                    <hr class="white-line"><a class="text-left white-text" href="https://www.linkedin.com/posts/chris-rea-8961b617_climatechange-sustainability-climatecrisis-activity-6795677221173424128-Y2JK/"><i class="fa fa-chain"></i>&nbsp;Read this post on Linkedin</a>
+                                                    <p class="text-left white-text typewrite"><br></p>
+                                                    <hr class="white-line"><a class="text-left white-text higher-poistion" data-toggle="tooltip" data-bss-tooltip="" href="https://www.linkedin.com/posts/chris-rea-8961b617_climatechange-sustainability-climatecrisis-activity-6795677221173424128-Y2JK/"><i class="fa fa-chain"></i>&nbsp;Read this post on Linkedin</a>
                                                 </div>
                                                 <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 align-self-start"><a href="https://www.linkedin.com/posts/chris-rea-8961b617_climatechange-sustainability-climatecrisis-activity-6795677221173424128-Y2JK/"><img class="img-fluid" src="assets/img/Planet-video.jpg"></a></div>
                                             </div>
                                         </li>
-                                        <li data-type="UK cancels pioneering scheme to fit protective clothing to environmental goals">
+                                        <li id="headline-2" data-type="Beyond Net Zero for 2020 - AESSEAL plc  is proud to announce that it has independent verification that it’ s activities had a positive impact on the environment in 2020."><a data-toggle="tooltip" data-bss-tooltip="" class="slider-link" href="articles/beyond-net-zero.html" title="Click here to read article on Betterworld Solutions"></a>
                                             <div class="row">
                                                 <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7">
-                                                    <p class="text-left white-text typewrite" data-period="7000"></p>
-                                                    <hr class="white-line"><a class="text-left white-text" href="articles/disposable-protective-clothing.html"><i class="fa fa-chain"></i>&nbsp;Read this article on Betterworld</a>
+                                                    <p class="text-left white-text typewrite"><br></p>
+                                                    <hr class="white-line"><a class="text-left white-text higher-position" data-toggle="tooltip" data-bss-tooltip="" href="articles/beyond-net-zero.html" title="Click here to read article on Betterworld Solutions"><i class="fa fa-chain"></i>&nbsp;Read this article on Betterworld Solutions</a>
                                                 </div>
-                                                <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 align-self-start"><a href="articles/disposable-protective-clothing.html"><img class="img-fluid" src="assets/img/generic-hospitals-coronavirus-ppe-gowns--1822458_192076361edc884ffede109b83bdb509047e7785ef7af4d5eb26c6676846e4f2cec0-square.jpg"></a></div>
+                                                <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 align-self-start"><a href="articles/beyond-net-zero.html"><img class="img-fluid" src="assets/img/Wetlands-April09b-sm.jpg"></a></div>
                                             </div>
                                         </li>
-                                        <li data-type="Pumps: Missing in Climate Action? The Case for an 11 Point UK Strategy.">
+                                        <li id="headline-3" data-type="Pumps: Missing in Climate Action? The Case for an 11 Point UK Strategy."><a data-toggle="tooltip" data-bss-tooltip="" class="slider-link" href="articles/missing-in-climate-action.html" title="Click here to read article on Betterworld Solutions"></a>
                                             <div class="row">
                                                 <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7">
-                                                    <p class="text-left white-text typewrite" data-period="7000"></p>
-                                                    <hr class="white-line"><a class="text-left white-text" href="articles/missing-in-climate-action.html"><i class="fa fa-chain"></i>Read this article on Betterworld</a>
+                                                    <p class="text-left white-text typewrite"><br></p>
+                                                    <hr class="white-line"><a class="text-left white-text higher-position" data-toggle="tooltip" data-bss-tooltip="" href="articles/missing-in-climate-action.html" title="Click here to read article on Betterworld Solutions"><i class="fa fa-chain"></i>&nbsp;Read this article on Betterworld Solutions</a>
                                                 </div>
                                                 <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 align-self-start"><a href="articles/missing-in-climate-action.html"><img class="img-fluid" src="assets/img/The-challenge-for-pump-suppliers-1.jpg"></a></div>
                                             </div>
@@ -195,9 +210,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <td><a class="btn btn-primary" role="button" href="https://bettwerworldsolutions.s3-eu-west-1.amazonaws.com/Pump-System-savings_ppt.pdf">Read Evidence Summary</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Electric Cars</td>
+                                        <td><a href="articles/electric-vehicles-are-critical.html">Electric Cars<br></a></td>
                                         <td>70,000,000</td>
-                                        <td></td>
+                                        <td><a class="btn btn-primary" role="button" href="articles/electric-vehicles-are-critical.html">Read Evidence Summary</a></td>
                                     </tr>
                                     <tr>
                                         <td><a href="evidence.html#evidence-table">Process Improvement</a></td>
@@ -206,7 +221,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </tr>
                                     <tr>
                                         <td class="h3" style="font-weight: 700;">Total</td>
-                                        <td class="h3" style="color: rgb(33, 37, 41);font-weight: 700;">529,500,000</td>
+                                        <td id="car-counter" class="h3" style="color: rgb(33, 37, 41);font-weight: 700;" colspan="3">529,500,000</td>
                                         <td></td>
                                     </tr>
                                 </tbody>
@@ -305,7 +320,9 @@ data-divlinkbg="#4bb485"
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/counter.js"></script>
     <script src="assets/js/form-validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js"></script>
     <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
     <script src="assets/js/init-bs.js"></script>
     <script src="assets/js/jquery.flexslider-min.js"></script>
