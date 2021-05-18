@@ -1941,3 +1941,9 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
   padding-right: 12.5%;
 }
 
+.leaf-background {
+  background-image: url("../../assets/img/white-leaf.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
