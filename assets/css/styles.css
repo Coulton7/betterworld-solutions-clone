@@ -1806,7 +1806,7 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
 
 html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
   height: 85%;
-  margin-bottom: -8.5em;
+  margin-bottom: -12.5em;
 }
 
 .carousel-caption {
