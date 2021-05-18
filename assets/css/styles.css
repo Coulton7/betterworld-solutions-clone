@@ -1804,3 +1804,70 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   }
 }
 
+html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
+  height: 90%;
+  margin-bottom: -6.5em;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  right: 0;
+  text-align: left;
+  top: 20%;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('../../assets/img/sandy-back1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(51, 102, 102,0.75);
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('../../assets/img/sandy-back2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(51, 102, 102,0.75);
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url('../../assets/img/sandy-back3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(51, 102, 102,0.75);
+}
+
+.carousel-item:nth-child(4) {
+  background-image: url('../../assets/img/sandy-back4.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(51, 102, 102,0.75);
+}
+
+.carousel-item:nth-child(5) {
+  background-image: url('../../assets/img/sandy-back5.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(51, 102, 102,0.75);
+}
+
+.carousel-item:nth-child(6) {
+  background-image: url('../../assets/img/sandy-back6.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(51, 102, 102,0.75);
+}
+
