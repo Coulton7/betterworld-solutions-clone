@@ -149,8 +149,8 @@
 .green-overlay {
   height: 100%;
   position: absolute;
-  background-color: #336666;
-  opacity: 0.7;
+  background-color: rgba(51, 102, 102,0.75);
+  mix-blend-mode: multiply;
   z-index: 1;
   width: 100%;
 }

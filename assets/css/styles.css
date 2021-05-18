@@ -1475,7 +1475,7 @@ darkgrey-background {
   .front.caption-container {
     width: 100%;
     position: relative;
-    bottom: 7.75em;
+    bottom: 12.5em;
     margin-bottom: -10em;
     z-index: 10;
   }
@@ -1794,5 +1794,12 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
 
 .white-line {
   border-top: 1px solid #ffffff;
+}
+
+@media (min-width: 1350px) {
+  .bottom-div {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
