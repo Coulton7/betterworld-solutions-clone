@@ -1806,7 +1806,7 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
 
 html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
   height: 85%;
-  margin-bottom: -12.5em;
+  margin-bottom: -10.5em;
 }
 
 .carousel-caption {
@@ -1814,7 +1814,7 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
   left: 0;
   right: 0;
   text-align: left;
-  top: 20%;
+  top: 1em;
 }
 
 .carousel-item:nth-child(1) {
@@ -1869,5 +1869,10 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-color: rgba(51, 102, 102,0.75);
+}
+
+.horizontal-padding {
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
