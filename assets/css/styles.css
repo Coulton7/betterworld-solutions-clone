@@ -1412,6 +1412,7 @@ darkgrey-background {
     position: relative;
     bottom: 12.15em;
     z-index: 10;
+    margin-bottom: -12em;
   }
 }
 
@@ -1512,7 +1513,7 @@ darkgrey-background {
   .front.caption-container {
     width: 100%;
     position: relative;
-    bottom: 9.2em;
+    bottom: 8.2em;
     margin-bottom: -8.5em;
     z-index: 10;
   }
@@ -1540,7 +1541,7 @@ darkgrey-background {
   .front.caption-container {
     width: 100%;
     position: relative;
-    bottom: 9.5em;
+    bottom: 8.5em;
     margin-bottom: -8em;
     z-index: 10;
   }
