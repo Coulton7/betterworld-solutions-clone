@@ -1805,56 +1805,56 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
 }
 
 html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-  height: 12em;
+  height: 14em;
   margin-bottom: 0em;
 }
 
 @media screen and (max-width: 767px) {
-  html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 19em;
-    margin-bottom: 0em;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .carousel-caption {
-    top: 0;
-  }
-}
-
-@media screen and (max-width: 767px) and (min-width:502px) {
-  html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 19em;
-    margin-bottom: 0em;
-  }
-}
-
-@media screen and (max-width: 767px) and (min-width:502px) {
-  .carousel-caption {
-    top: 0;
-  }
-}
-
-@media screen and (max-width: 501px) and (min-width:371px) {
-  html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 19em;
-    margin-bottom: 0em;
-  }
-}
-
-@media screen and (max-width: 501px) and (min-width:371px) {
-  .carousel-caption {
-    top: 0;
-  }
-}
-
-@media screen and (max-width: 370px) {
   html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
     height: 21em;
     margin-bottom: 0em;
   }
 }
 
+@media screen and (max-width: 767px) {
+  .carousel-caption {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width:502px) {
+  html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
+    height: 21em;
+    margin-bottom: 0em;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width:502px) {
+  .carousel-caption {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 501px) and (min-width:371px) {
+  html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
+    height: 21em;
+    margin-bottom: 0em;
+  }
+}
+
+@media screen and (max-width: 501px) and (min-width:371px) {
+  .carousel-caption {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
+    height: 23em;
+    margin-bottom: 0em;
+  }
+}
+
 @media screen and (max-width: 370px) {
   .carousel-caption {
     top: 0;
@@ -1863,14 +1863,14 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
 
 @media screen and (min-width: 768px) {
   html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 12em;
+    height: 14em;
     margin-bottom: 0em;
   }
 }
 
 @media screen and (min-width: 768px) {
   .carousel-caption {
-    top: 1em;
+    top: 2em;
   }
 }
 
