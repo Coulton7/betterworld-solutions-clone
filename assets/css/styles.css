@@ -1947,3 +1947,83 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
   background-position: center;
 }
 
+.create-own-policy {
+  background-image: url("../../assets/img/Policy-to-prevent-Global-Warming.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.download-statement {
+  background-image: url("../../assets/img/Adopt_a_Policy_RR_Final_issue_7_Page_1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.aes-policy-cover {
+  background-image: url("../../assets/img/Investment_Policy_to_Prevent_Global_Warming_AES_Engineering_CJRs.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.css-fade {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.fade-icon {
+  display: none;
+  background-color: #4bb485;
+  border-color: #4bb485;
+}
+
+.fade-icon:hover {
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .download-icon {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 992px) {
+  .download-icon {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 992px) {
+  .fade-icon {
+    padding-top: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fade-icon {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 1350px) {
+  .fade-icon {
+    padding-top: 20%;
+  }
+}
+
