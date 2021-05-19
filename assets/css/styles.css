@@ -1805,13 +1805,13 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
 }
 
 html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-  height: 14em;
+  height: 12em;
   margin-bottom: 0em;
 }
 
 @media screen and (max-width: 767px) {
   html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 21em;
+    height: 19em;
     margin-bottom: 0em;
   }
 }
@@ -1824,7 +1824,7 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
 
 @media screen and (max-width: 767px) and (min-width:502px) {
   html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 21em;
+    height: 19em;
     margin-bottom: 0em;
   }
 }
@@ -1837,7 +1837,7 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
 
 @media screen and (max-width: 501px) and (min-width:371px) {
   html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 21em;
+    height: 19em;
     margin-bottom: 0em;
   }
 }
@@ -1850,7 +1850,7 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
 
 @media screen and (max-width: 370px) {
   html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 23em;
+    height: 21em;
     margin-bottom: 0em;
   }
 }
@@ -1863,7 +1863,7 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
 
 @media screen and (min-width: 768px) {
   html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
-    height: 14em;
+    height: 12em;
     margin-bottom: 0em;
   }
 }
