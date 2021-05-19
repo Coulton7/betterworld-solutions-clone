@@ -26,4 +26,9 @@ jQuery(document).ready(function() {
     $(this).stop(true, true).fadeOut();
     jQuery('body').fadeIcon();
   });
+    jQuery('.show-icon').hover(function() {
+    $('.fade-icon').stop(true, true).fadeIn();
+  }, function() {
+    $('.fade-icon').stop(true, true).fadeOut();
+    });
 }); 
