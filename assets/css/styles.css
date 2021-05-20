@@ -1879,7 +1879,7 @@ html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
   left: 0;
   right: 0;
   text-align: left;
-  top: 1em;
+  top: 0em;
 }
 
 .carousel-item:nth-child(1) {
