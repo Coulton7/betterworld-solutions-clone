@@ -2031,3 +2031,30 @@ a.light-green-text {
   color: #93e2bc;
 }
 
+@media (max-width: 767px) {
+  .mobile-right {
+    float: right;
+  }
+}
+
+.mobile-right {
+}
+
+@media (min-width: 768px) {
+  .mobile-right {
+    float: initial;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-col {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-col {
+    width: initial;
+  }
+}
+
